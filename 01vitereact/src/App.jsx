@@ -1,9 +1,12 @@
-
+import Me from "./me.jsx";
 
 function App() {
 
   return (
-  <h1>hello ji kaise ho? | vite project , i am kanishka </h1>
+    <> // fragment
+      <h1>hola amigo</h1>
+      <Me/>
+    </>
   )
 }
 
