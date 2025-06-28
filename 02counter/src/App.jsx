@@ -11,11 +11,7 @@ function App() {
     counter = counter +1;
     setCounter(counter)
     console.log("clicked",counter)
-    if(counter===0){
-      document.querySelector('#para').innerHTML = "count can not go lessser than 0 "
-    }else{
-      document.querySelector('#para').innerHTML = " "
-    }
+    document.querySelector('#para').innerHTML = " "
   }
 
   const redValue = () => {
@@ -25,8 +21,6 @@ function App() {
     console.log("clicked",counter)
     if(counter===0){
       document.querySelector('#para').innerHTML = "count can not go lessser than 0 "
-    }else{
-      document.querySelector('#para').innerHTML = " "
     }
     
   }
